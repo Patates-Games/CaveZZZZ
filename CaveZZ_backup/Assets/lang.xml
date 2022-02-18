@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TXT>
+	<!-- MainMenu / MainPanel -->
+	<text name='StartGameText'>
+		<english>START GAME</english>
+		<turkish>OYUNA BAŞLA</turkish>
+	</text>
+	<text name='OptionsText'>
+		<english>OPTIONS</english>
+		<turkish>AYARLAR</turkish>
+	</text>
+	<text name='QuitText'>
+		<english>QUIT</english>
+		<turkish>ÇIKIŞ</turkish>
+	</text>
+
+	<!-- MainMenu / OptionsPanel -->
+	<text name='OptionsHeader'>
+		<english>OPTIONS</english>
+		<turkish>AYARLAR</turkish>
+	</text>
+	<text name='SoundText'>
+		<english>SOUND</english>
+		<turkish>SES</turkish>
+	</text>
+	<text name='LanguageText'>
+		<english>LANGUAGE</english>
+		<turkish>DİL</turkish>
+	</text>
+	<text name='EnglishText'>
+		<english>ENGLISH</english>
+		<turkish>ENGLISH</turkish>
+	</text>
+	<text name='TurkishText'>
+		<english>TURKISH</english>
+		<turkish>TÜRKÇE</turkish>
+	</text>
+	<text name='BackText'>
+		<english>BACK</english>
+		<turkish>GERİ</turkish>
+	</text>
+
+	<!-- Game / DatePanel -->
+	<text name='PastDate'>
+		<english>27 June 2005</english>
+		<turkish>27 Haziran 2005</turkish>
+	</text>
+	<text name='CurrentDate'>
+		<english>30 June 2005</english>
+		<turkish>30 Haziran 2005</turkish>
+	</text>
+	<text name='FutureDate'>
+		<english>33 June 2005</english>
+		<turkish>33 Haziran 2005</turkish>
+	</text>
+	<text name='GoPastText'>
+		<english>Go Past</english>
+		<turkish>Geçmişe Git</turkish>
+	</text>
+	<text name='GoFutureText'>
+		<english>Go Future</english>
+		<turkish>Geleceğe Git</turkish>
+	</text>
+	<text name='NoPast'>
+		<english>I can't go any further past from here. It's too dangerous.</english>
+		<turkish>Zamanda daha fazla geriye gidemem, çok tehlikeli.</turkish>
+	</text>
+	<text name='NoFuture'>
+		<english>I can't go any further future from here. It's too dangerous</english>
+		<turkish>Zamanda daha fazla ileriye gidemem, çok tehlikeli.</turkish>
+	</text>
+
+	<!-- Game / SubtitlePanel -->
+	<text name='Subtitle'>
+		<english>Subtitle</english>
+		<turkish>Altyazı</turkish>
+	</text>
+
+	<!-- Game / InteractPanel -->
+	<text name='ObjectInfo'>
+		<english>Object</english>
+		<turkish>Obje</turkish>
+	</text>
+	<text name='BackText_Interact'>
+		<english>BACK</english>
+		<turkish>GERİ</turkish>
+	</text>
+
+	<!-- Inventory / Items -->
+	<text name='Isometric Diamond'>
+		<english>Isometric Diamond</english>
+		<turkish></turkish>
+	</text>
+
+	<text name='Unlocked'>
+		<english>The door is unlocked.</english>
+		<turkish></turkish>
+	</text>
+
+	<text name='WrongKey'>
+		<english>You don't have the right key for this door.</english>
+		<turkish></turkish>
+	</text>
+	
+	<text name='Added'>
+		<english>This item added to your inventory.</english>
+		<turkish></turkish>
+	</text>
+
+	<text name='AlreadyHave'>
+		<english>You already have this item.</english>
+		<turkish></turkish>
+	</text>
+
+	<text name='InventoryFull'>
+		<english>Your inventory is full.</english>
+		<turkish></turkish>
+	</text>
+	
+
+</TXT>
