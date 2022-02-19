@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("TimeKey"))
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             datePanel.SetActive(!datePanel.activeSelf);
             if(datePanel.activeSelf) CanMove(false);
             else CanMove(true);
@@ -89,6 +91,7 @@ public class PlayerController : MonoBehaviour
             languageManager.SetSubtitle(interactText.GetComponent<TextMeshProUGUI>(), interactItem.name);
             interactPanel.SetActive(true);
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             interactItem.GetComponent<Items>().GetInteract();
         }
     }
@@ -113,6 +116,7 @@ public class PlayerController : MonoBehaviour
     {
         interactPanel.SetActive(false);
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         CanMove(true);
     }
 

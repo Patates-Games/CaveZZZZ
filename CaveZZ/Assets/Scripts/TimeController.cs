@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,9 +13,12 @@ public class TimeController : MonoBehaviour
         Future = 2
     }
 
+    public LanguageManager languageManager;
+    public Timeline timeline;
     public Messages messageManager;
     public Times time = Times.Now;
     public Animator animator;
+    public TextMeshProUGUI currentDateText;
 
     private void Start()
     {
@@ -24,6 +28,7 @@ public class TimeController : MonoBehaviour
     void SetTime()
     {
         PlayerPrefs.SetInt("time", (int)time);
+        timeline.ObjectManager();
     }
 
     public void GoPast(GameObject gameObject)
@@ -36,9 +41,9 @@ public class TimeController : MonoBehaviour
             messageManager.GetSubtitle("NoPast");
             return;
         }
-
         SetTime();
-        animator.SetTrigger("GoPast");
+        animator.SetTrigger("ChangeTime");
+        StartCoroutine(DateChanger());
     }
 
     public void GoFuture(GameObject gameObject)
@@ -51,17 +56,21 @@ public class TimeController : MonoBehaviour
             messageManager.GetSubtitle("NoFuture");
             return;
         }
-
         SetTime();
-        animator.SetTrigger("GoFuture");
+        animator.SetTrigger("ChangeTime");
+        StartCoroutine(DateChanger());
     }
 
     IEnumerator ButtonHolder(GameObject gameObject)
     {
         gameObject.SetActive(false);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(true);
     }
-
+    IEnumerator DateChanger()
+    {
+        yield return new WaitForSeconds(1f);
+        languageManager.SetDate(currentDateText, time);
+    }
 
 }

@@ -32,6 +32,19 @@ public class LanguageManager : MonoBehaviour
         text.text = subtitle;
     }
 
+    public void SetDate(TextMeshProUGUI text, TimeController.Times time)
+    {
+        string subtitle;
+        Dictionary<string, string> dic = GetDic();
+
+        if (time == TimeController.Times.Future) subtitle = "FutureDate";
+        else if (time == TimeController.Times.Now) subtitle = "NowDate";
+        else subtitle = "PastDate";
+        
+        dic.TryGetValue(subtitle, out subtitle);
+        text.text = subtitle;
+    }
+
     public void SetTXT(string lang)
     {
         language = lang;
