@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public GameObject interactText;
 
     public GameObject datePanel;
-    bool canMove = true;
+    public bool canMove = true;
     GameObject interactItem = null;
     Rigidbody2D rbody;
     public float speed = 1500f;
@@ -85,13 +85,32 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Interact") && interactItem != null)
         {
-            CanMove(false);
-            interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
-            interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
-            languageManager.SetSubtitle(interactText.GetComponent<TextMeshProUGUI>(), interactItem.name);
-            interactPanel.SetActive(true);
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            Items interacted = interactItem.gameObject.GetComponent<Items>();
+
+            if (interacted.RangeItemEnd >= (int)interacted.item && (int)interacted.item >= interacted.RangeItemStart)
+            {
+                CanMove(false);
+                interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
+                interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+                languageManager.SetSubtitle(interactText.GetComponent<TextMeshProUGUI>(), interactItem.GetComponent<Items>().item.ToString());
+                interactPanel.SetActive(true);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else if (interacted.item == Items.Item.LeverSocket)
+            {
+            }
+            else if ((int)interacted.item >= interacted.RangeOtherAfter)
+            {
+                CanMove(false);
+                interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
+                interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+                interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel(interacted.item.ToString());
+                interactPanel.SetActive(true);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+
             interactItem.GetComponent<Items>().GetInteract();
         }
     }

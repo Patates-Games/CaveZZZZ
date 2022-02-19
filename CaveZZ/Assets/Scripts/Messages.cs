@@ -9,6 +9,10 @@ public class Messages : MonoBehaviour
     public TextMeshProUGUI textHolder;
     public GameObject subtitlePanel;
 
+    private void Start()
+    {
+    }
+
     public void GetSubtitle(string titleId, float time = 2f)
     {
         StartCoroutine(ShowSubtitle(titleId, time));

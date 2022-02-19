@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Text
   - Interactable
+  - Shelf
   layers:
   - Default
   - TransparentFX

@@ -64,7 +64,7 @@ public class TimeController : MonoBehaviour
     IEnumerator ButtonHolder(GameObject gameObject)
     {
         gameObject.SetActive(false);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         gameObject.SetActive(true);
     }
     IEnumerator DateChanger()

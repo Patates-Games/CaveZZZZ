@@ -87,7 +87,7 @@ public class LanguageManager : MonoBehaviour
         } while (reader.ReadToFollowing("text"));
     }
 
-    string GetLabel(string key, string language = "english")
+    public string GetLabel(string key, string language = "english")
     {
         string label = "";
         if (language == "english") dicEN.TryGetValue(key, out label);

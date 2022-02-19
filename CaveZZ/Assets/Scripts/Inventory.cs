@@ -11,15 +11,6 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < items.Length; i++)
         {
-            if (items[i] == item)
-            {
-                messages.GetSubtitle("AlreadyHave");
-                return false;
-            }
-        }
-
-        for (int i = 0; i < items.Length; i++)
-        {
             if (items[i] == Items.Item.Empty)
             {
                 items[i] = item;
@@ -38,6 +29,18 @@ public class Inventory : MonoBehaviour
             if (items[i] == item)
             {
                 if (willErase) items[i] = Items.Item.Empty;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool FindItem(Items.Item item)
+    {
+        for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i] == item)
+            {
                 return true;
             }
         }

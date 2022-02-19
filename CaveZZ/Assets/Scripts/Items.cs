@@ -1,52 +1,121 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Items : MonoBehaviour
 {
-    public Inventory inventory;
-    public Messages messages;
+    public GameObject script;
+    PlayerController playerController;
+    LanguageManager languageManager;
+    Inventory inventory;
+    Messages messages;
+
+    private void Start()
+    {
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>(); ;
+        languageManager = script.GetComponent<LanguageManager>();
+        inventory = script.GetComponent<Inventory>();
+        messages = script.GetComponent<Messages>();
+    }
 
     public enum Item
     {
         Empty,
-        RedKey,
-        GreenKey,
-        BlueKey,
-        RedDoor,
-        GreenDoor,
-        BlueDoor
+        DoorExit,
+        DoorLocked,
+        DoorOpen,
+
+        Lockpick,
+        Lever,
+        KeyExit,
+        SafeNote,
+
+        Safe,
+        LeverSocket,
     }
     public Item item;
+    public int RangeItemStart = 4;
+    public int RangeItemEnd = 7;
+    public int RangeOtherAfter = 8;
 
     public void GetInteract()
     {
-        if(3 >= (int)item && (int)item >= 1)
+        if (item == Item.DoorExit) InteractExitDoor();
+        else if (item == Item.DoorLocked) InteractUnlockDoor();
+        else if (item == Item.DoorOpen) InteractDoor();
+        else if (RangeItemEnd >= (int)item && (int)item >= RangeItemStart) InteractItem();
+        else if ((int)item >= RangeOtherAfter) InteractOthers();
+    }
+
+    void InteractExitDoor()
+    {
+        if (inventory.UseItem(Item.KeyExit))
         {
-            inventory.AddItem(item);
+            messages.GetSubtitle("ExitDoorSuccess");
+            // END GAME SCRIPT
+        }
+        else messages.GetSubtitle("ExitDoorFailed");
+    }
+
+    void InteractUnlockDoor()
+    {
+        if (inventory.UseItem(Item.Lockpick))
+        {
+            messages.GetSubtitle("Unlocked");
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+        }
+        else messages.GetSubtitle("NoLockpick");
+    }
+
+    void InteractDoor()
+    {
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+    }
+
+    void InteractItem()
+    {
+        if (inventory.AddItem(item))
+        {
             Destroy(gameObject);
-            return;
         }
-        else if (6 >= (int)item && (int)item >= 4)
+    }
+
+    void InteractOthers()
+    {
+        if (item == Item.Safe)
         {
-            if (item == Item.RedDoor)
+            if (inventory.FindItem(Item.SafeNote))
             {
-                if (inventory.UseItem(Item.RedKey)) messages.GetSubtitle("Unlocked");
-                else messages.GetSubtitle("WrongKey");
-                return;
-            }
-            if (item == Item.GreenDoor)
-            {
-                if (inventory.UseItem(Item.GreenKey)) messages.GetSubtitle("Unlocked");
-                else messages.GetSubtitle("WrongKey");
-                return;
-            }
-            if (item == Item.BlueDoor)
-            {
-                if (inventory.UseItem(Item.BlueKey)) messages.GetSubtitle("Unlocked");
-                else messages.GetSubtitle("WrongKey");
-                return;
+                inventory.UseItem(Item.SafeNote);
+                inventory.AddItem(Item.KeyExit);
+                playerController.interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("KeyExit");
+                gameObject.tag = "Untagged";
             }
         }
+        else if (item == Item.LeverSocket)
+        {
+            if (inventory.FindItem(Item.Lever))
+            {
+                inventory.UseItem(Item.Lever);
+                GameObject.FindGameObjectWithTag("Shelf").GetComponent<Animator>().SetTrigger("LeverUsed");
+                StartCoroutine(GetLight(GameObject.FindGameObjectWithTag("Shelf").GetComponentInParent<Light2D>()));
+                messages.GetSubtitle("LeverUsed");
+            }
+            else
+            {
+                messages.GetSubtitle("NoLever");
+                gameObject.tag = "Untagged";
+            }
+        }
+    }
+
+    IEnumerator GetLight(Light2D light2D)
+    {
+        yield return new WaitForSeconds(.5f);
+        light2D.enabled = true;
     }
 }
