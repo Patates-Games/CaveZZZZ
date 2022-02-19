@@ -1,0 +1,5520 @@
+fileFormatVersion: 2
+guid: a6c7ecaf72ea1264aa419d345dd702c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -712546920853401042
+    second: Interior_Tiles_0
+  - first:
+      213: 1792649000858069076
+    second: Interior_Tiles_1
+  - first:
+      213: -2391385709110736375
+    second: Interior_Tiles_2
+  - first:
+      213: -4431335200336157882
+    second: Interior_Tiles_3
+  - first:
+      213: 4773242632458764933
+    second: Interior_Tiles_4
+  - first:
+      213: 4078865096215559254
+    second: Interior_Tiles_5
+  - first:
+      213: -938715998710836737
+    second: Interior_Tiles_6
+  - first:
+      213: 1824368085344228971
+    second: Interior_Tiles_7
+  - first:
+      213: 4406477004802094360
+    second: Interior_Tiles_8
+  - first:
+      213: 1682119250277725471
+    second: Interior_Tiles_9
+  - first:
+      213: -3332215032382612084
+    second: Interior_Tiles_10
+  - first:
+      213: 6625309719494477141
+    second: Interior_Tiles_11
+  - first:
+      213: 224868571232198377
+    second: Interior_Tiles_12
+  - first:
+      213: 8170877675677615796
+    second: Interior_Tiles_13
+  - first:
+      213: 3755891196881259701
+    second: Interior_Tiles_14
+  - first:
+      213: -3865513511580400654
+    second: Interior_Tiles_15
+  - first:
+      213: -5929599786163480555
+    second: Interior_Tiles_16
+  - first:
+      213: -2442555115321330221
+    second: Interior_Tiles_17
+  - first:
+      213: 1319592229698478691
+    second: Interior_Tiles_18
+  - first:
+      213: -5733718838281600094
+    second: Interior_Tiles_19
+  - first:
+      213: -8991122486720353111
+    second: Interior_Tiles_20
+  - first:
+      213: 744493250024167882
+    second: Interior_Tiles_21
+  - first:
+      213: -5057597343116189808
+    second: Interior_Tiles_22
+  - first:
+      213: 8431137020473564583
+    second: Interior_Tiles_23
+  - first:
+      213: -8855742386142253722
+    second: Interior_Tiles_24
+  - first:
+      213: 6258466251436693389
+    second: Interior_Tiles_25
+  - first:
+      213: -3097418065147582174
+    second: Interior_Tiles_26
+  - first:
+      213: -3324477408094684458
+    second: Interior_Tiles_27
+  - first:
+      213: -5804422547316347858
+    second: Interior_Tiles_28
+  - first:
+      213: -3765702704129894441
+    second: Interior_Tiles_29
+  - first:
+      213: -4258852745567987494
+    second: Interior_Tiles_30
+  - first:
+      213: 7158614228984181047
+    second: Interior_Tiles_31
+  - first:
+      213: -6846761642374328738
+    second: Interior_Tiles_32
+  - first:
+      213: -5721625790689546866
+    second: Interior_Tiles_33
+  - first:
+      213: 1250986073795228258
+    second: Interior_Tiles_34
+  - first:
+      213: -8490249193664379484
+    second: Interior_Tiles_35
+  - first:
+      213: 7792337200856611528
+    second: Interior_Tiles_36
+  - first:
+      213: -2641202792841419714
+    second: Interior_Tiles_37
+  - first:
+      213: -1170189279475191779
+    second: Interior_Tiles_38
+  - first:
+      213: 1054339339220363579
+    second: Interior_Tiles_39
+  - first:
+      213: 3188147434515725245
+    second: Interior_Tiles_40
+  - first:
+      213: 4435627242536341621
+    second: Interior_Tiles_41
+  - first:
+      213: 4430409278770275811
+    second: Interior_Tiles_42
+  - first:
+      213: -7817515838816330162
+    second: Interior_Tiles_43
+  - first:
+      213: -497996976791379731
+    second: Interior_Tiles_44
+  - first:
+      213: 2669633836498481744
+    second: Interior_Tiles_45
+  - first:
+      213: 1953730599285232433
+    second: Interior_Tiles_46
+  - first:
+      213: 152515315318626365
+    second: Interior_Tiles_47
+  - first:
+      213: 5879365976386228301
+    second: Interior_Tiles_48
+  - first:
+      213: -3894356460361072465
+    second: Interior_Tiles_49
+  - first:
+      213: 2751505106217122555
+    second: Interior_Tiles_50
+  - first:
+      213: 7886622953441155402
+    second: Interior_Tiles_51
+  - first:
+      213: -5619731191827472576
+    second: Interior_Tiles_52
+  - first:
+      213: 1003072984472646774
+    second: Interior_Tiles_53
+  - first:
+      213: -1013574307212504419
+    second: Interior_Tiles_54
+  - first:
+      213: -5804495164079372254
+    second: Interior_Tiles_55
+  - first:
+      213: 1368534850101451732
+    second: Interior_Tiles_56
+  - first:
+      213: -5671599007414052957
+    second: Interior_Tiles_57
+  - first:
+      213: 7403334592696033265
+    second: Interior_Tiles_58
+  - first:
+      213: 2627627807294202591
+    second: Interior_Tiles_59
+  - first:
+      213: 5369773837417736903
+    second: Interior_Tiles_60
+  - first:
+      213: 3342895456872029875
+    second: Interior_Tiles_61
+  - first:
+      213: 4394986776939190782
+    second: Interior_Tiles_62
+  - first:
+      213: -904739375915709307
+    second: Interior_Tiles_63
+  - first:
+      213: -8256397595882038626
+    second: Interior_Tiles_64
+  - first:
+      213: -7524749836987039376
+    second: Interior_Tiles_65
+  - first:
+      213: -6840757716151535699
+    second: Interior_Tiles_66
+  - first:
+      213: 2160015654993186653
+    second: Interior_Tiles_67
+  - first:
+      213: 3020326288267816242
+    second: Interior_Tiles_68
+  - first:
+      213: -6430526095987267529
+    second: Interior_Tiles_69
+  - first:
+      213: -4345844251246464923
+    second: Interior_Tiles_70
+  - first:
+      213: -4783460129393012079
+    second: Interior_Tiles_71
+  - first:
+      213: -6953472412824441919
+    second: Interior_Tiles_72
+  - first:
+      213: -151605890883726006
+    second: Interior_Tiles_73
+  - first:
+      213: -8931305100041097432
+    second: Interior_Tiles_74
+  - first:
+      213: 1970535028102918742
+    second: Interior_Tiles_75
+  - first:
+      213: 3326206048736723720
+    second: Interior_Tiles_76
+  - first:
+      213: 7133100055273298603
+    second: Interior_Tiles_77
+  - first:
+      213: 1399509323463222635
+    second: Interior_Tiles_78
+  - first:
+      213: 2355198006204642717
+    second: Interior_Tiles_79
+  - first:
+      213: -478473358876463402
+    second: Interior_Tiles_80
+  - first:
+      213: -4461163499187811069
+    second: Interior_Tiles_81
+  - first:
+      213: -7296647575681154672
+    second: Interior_Tiles_82
+  - first:
+      213: 9063951078528433148
+    second: Interior_Tiles_83
+  - first:
+      213: 8828098999909016049
+    second: Interior_Tiles_84
+  - first:
+      213: -8483080655916700665
+    second: Interior_Tiles_85
+  - first:
+      213: -4743323810021600932
+    second: Interior_Tiles_86
+  - first:
+      213: 8552937558192565220
+    second: Interior_Tiles_87
+  - first:
+      213: -7431647259822929915
+    second: Interior_Tiles_88
+  - first:
+      213: 924148862921582145
+    second: Interior_Tiles_89
+  - first:
+      213: 7663596407997276941
+    second: Interior_Tiles_90
+  - first:
+      213: -3998038908806465132
+    second: Interior_Tiles_91
+  - first:
+      213: -3837254851501857349
+    second: Interior_Tiles_92
+  - first:
+      213: 8092395664654943942
+    second: Interior_Tiles_93
+  - first:
+      213: -5352486711442313266
+    second: Interior_Tiles_94
+  - first:
+      213: 8600205947376280920
+    second: Interior_Tiles_95
+  - first:
+      213: -190032692558080334
+    second: Interior_Tiles_96
+  - first:
+      213: 8235159689150792312
+    second: Interior_Tiles_97
+  - first:
+      213: 614762257408288247
+    second: Interior_Tiles_98
+  - first:
+      213: 1084625359183597652
+    second: Interior_Tiles_99
+  - first:
+      213: -4046453277944305935
+    second: Interior_Tiles_100
+  - first:
+      213: -1523411775607045145
+    second: Interior_Tiles_101
+  - first:
+      213: 5717137252499126787
+    second: Interior_Tiles_102
+  - first:
+      213: -8429352434997264795
+    second: Interior_Tiles_103
+  - first:
+      213: 166186000570723322
+    second: Interior_Tiles_104
+  - first:
+      213: -7715190071662868042
+    second: Interior_Tiles_105
+  - first:
+      213: 2666570905559031757
+    second: Interior_Tiles_106
+  - first:
+      213: 7926744544746168619
+    second: Interior_Tiles_107
+  - first:
+      213: 6002930682203923960
+    second: Interior_Tiles_108
+  - first:
+      213: 2823589714091958647
+    second: Interior_Tiles_109
+  - first:
+      213: -360789268434261378
+    second: Interior_Tiles_110
+  - first:
+      213: 1048242317580270303
+    second: Interior_Tiles_111
+  - first:
+      213: 5809655328713403878
+    second: Interior_Tiles_112
+  - first:
+      213: 1196240565542259153
+    second: Interior_Tiles_113
+  - first:
+      213: -1441237720101580490
+    second: Interior_Tiles_114
+  - first:
+      213: -208280637308783728
+    second: Interior_Tiles_115
+  - first:
+      213: -2582342991531750307
+    second: Interior_Tiles_116
+  - first:
+      213: 9182418052426425057
+    second: Interior_Tiles_117
+  - first:
+      213: 413208196281366175
+    second: Interior_Tiles_118
+  - first:
+      213: -5462472695344517092
+    second: Interior_Tiles_119
+  - first:
+      213: -4175369115690493552
+    second: Interior_Tiles_120
+  - first:
+      213: 304662891822507226
+    second: Interior_Tiles_121
+  - first:
+      213: -7427685359703715891
+    second: Interior_Tiles_122
+  - first:
+      213: -5294054142534992958
+    second: Interior_Tiles_123
+  - first:
+      213: -7985486993713537222
+    second: Interior_Tiles_124
+  - first:
+      213: -6156443153291314534
+    second: Interior_Tiles_125
+  - first:
+      213: 8846784473724712297
+    second: Interior_Tiles_126
+  - first:
+      213: 7920913182869491833
+    second: Interior_Tiles_127
+  - first:
+      213: 6999768873011761511
+    second: Interior_Tiles_128
+  - first:
+      213: -2753837395725376270
+    second: Interior_Tiles_129
+  - first:
+      213: -5745023730438529258
+    second: Interior_Tiles_130
+  - first:
+      213: 3541519859334483497
+    second: Interior_Tiles_131
+  - first:
+      213: 2836692180825197896
+    second: Interior_Tiles_132
+  - first:
+      213: -7080440237808622084
+    second: Interior_Tiles_133
+  - first:
+      213: 4396167423437120638
+    second: Interior_Tiles_134
+  - first:
+      213: -9059324591690296424
+    second: Interior_Tiles_135
+  - first:
+      213: 5498071156817637577
+    second: Interior_Tiles_136
+  - first:
+      213: 7060851137189494730
+    second: Interior_Tiles_137
+  - first:
+      213: 8757972262836441604
+    second: Interior_Tiles_138
+  - first:
+      213: 1834911563150928295
+    second: Interior_Tiles_139
+  - first:
+      213: 7197486021976491343
+    second: Interior_Tiles_140
+  - first:
+      213: 6751343274963734311
+    second: Interior_Tiles_141
+  - first:
+      213: 7073236220468670359
+    second: Interior_Tiles_142
+  - first:
+      213: 1883436183488935176
+    second: Interior_Tiles_143
+  - first:
+      213: 5139538150515980282
+    second: Interior_Tiles_144
+  - first:
+      213: 3338365767588807157
+    second: Interior_Tiles_145
+  - first:
+      213: -5617256016458617072
+    second: Interior_Tiles_146
+  - first:
+      213: 4646496600903934418
+    second: Interior_Tiles_147
+  - first:
+      213: -8741332447947999583
+    second: Interior_Tiles_148
+  - first:
+      213: 7685750456599246491
+    second: Interior_Tiles_149
+  - first:
+      213: 3918457552107659593
+    second: Interior_Tiles_150
+  - first:
+      213: 3682778033179100433
+    second: Interior_Tiles_151
+  - first:
+      213: -4901750046665955699
+    second: Interior_Tiles_152
+  - first:
+      213: -5479175221793791191
+    second: Interior_Tiles_153
+  - first:
+      213: -5298103881227610582
+    second: Interior_Tiles_154
+  - first:
+      213: -1815081505314882615
+    second: Interior_Tiles_155
+  - first:
+      213: -4900596725807642409
+    second: Interior_Tiles_156
+  - first:
+      213: -4795533007774213
+    second: Interior_Tiles_157
+  - first:
+      213: -347126457399135944
+    second: Interior_Tiles_158
+  - first:
+      213: 7549568321063920726
+    second: Interior_Tiles_159
+  - first:
+      213: -406314251888766743
+    second: Interior_Tiles_160
+  - first:
+      213: -7895221464160523610
+    second: Interior_Tiles_161
+  - first:
+      213: -2849604598962754704
+    second: Interior_Tiles_162
+  - first:
+      213: 8733138497355674234
+    second: Interior_Tiles_163
+  - first:
+      213: 8126660597137011363
+    second: Interior_Tiles_164
+  - first:
+      213: -2556912691424100917
+    second: Interior_Tiles_165
+  - first:
+      213: -6252170979104168210
+    second: Interior_Tiles_166
+  - first:
+      213: -5403093868974445688
+    second: Interior_Tiles_167
+  - first:
+      213: -1765083572329822222
+    second: Interior_Tiles_168
+  - first:
+      213: -3138764212090984959
+    second: Interior_Tiles_169
+  - first:
+      213: 1539401657651167856
+    second: Interior_Tiles_170
+  - first:
+      213: 9129938501190083126
+    second: Interior_Tiles_171
+  - first:
+      213: -4988731475492727504
+    second: Interior_Tiles_172
+  - first:
+      213: -1025972222073600120
+    second: Interior_Tiles_173
+  - first:
+      213: -7849523627640401376
+    second: Interior_Tiles_174
+  - first:
+      213: -7654094971449114972
+    second: Interior_Tiles_175
+  - first:
+      213: -1506017097732682830
+    second: Interior_Tiles_176
+  - first:
+      213: 7566583014837760698
+    second: Interior_Tiles_177
+  - first:
+      213: -248433933842498864
+    second: Interior_Tiles_178
+  - first:
+      213: 2686218280346471300
+    second: Interior_Tiles_179
+  - first:
+      213: -6346001282810743328
+    second: Interior_Tiles_180
+  - first:
+      213: -8354508012598764958
+    second: Interior_Tiles_181
+  - first:
+      213: 5356181002540987754
+    second: Interior_Tiles_182
+  - first:
+      213: -744708567628727517
+    second: Interior_Tiles_183
+  - first:
+      213: 8657949942425157885
+    second: Interior_Tiles_184
+  - first:
+      213: 285669965865969824
+    second: Interior_Tiles_185
+  - first:
+      213: -6942751463789650395
+    second: Interior_Tiles_186
+  - first:
+      213: -648823184984905345
+    second: Interior_Tiles_187
+  - first:
+      213: -2240502876533297760
+    second: Interior_Tiles_188
+  - first:
+      213: 6622986443638463658
+    second: Interior_Tiles_189
+  - first:
+      213: 5656444609860644162
+    second: Interior_Tiles_190
+  - first:
+      213: 7324401113508146585
+    second: Interior_Tiles_191
+  - first:
+      213: -1213014937605862658
+    second: Interior_Tiles_192
+  - first:
+      213: 7335528278460433582
+    second: Interior_Tiles_193
+  - first:
+      213: 6677573894229718674
+    second: Interior_Tiles_194
+  - first:
+      213: 4920874875150160610
+    second: Interior_Tiles_195
+  - first:
+      213: -7035518109721844505
+    second: Interior_Tiles_196
+  - first:
+      213: 3411072062352137163
+    second: Interior_Tiles_197
+  - first:
+      213: 9086127676756147685
+    second: Interior_Tiles_198
+  - first:
+      213: -2490918395677181832
+    second: Interior_Tiles_199
+  - first:
+      213: 2931703586785638882
+    second: Interior_Tiles_200
+  - first:
+      213: 7851405903867809067
+    second: Interior_Tiles_201
+  - first:
+      213: -3700771944363414592
+    second: Interior_Tiles_202
+  - first:
+      213: -914613506503861402
+    second: Interior_Tiles_203
+  - first:
+      213: 7757713975865360879
+    second: Interior_Tiles_204
+  - first:
+      213: -5718647772770220448
+    second: Interior_Tiles_205
+  - first:
+      213: -1492132929491232293
+    second: Interior_Tiles_206
+  - first:
+      213: -3731140447694063105
+    second: Interior_Tiles_207
+  - first:
+      213: 50096486496073602
+    second: Interior_Tiles_208
+  - first:
+      213: -4086700468267243445
+    second: Interior_Tiles_209
+  - first:
+      213: -5698507739852363858
+    second: Interior_Tiles_210
+  - first:
+      213: -284783495518130337
+    second: Interior_Tiles_211
+  - first:
+      213: 7745624385375724387
+    second: Interior_Tiles_212
+  - first:
+      213: 1683151611443157325
+    second: Interior_Tiles_213
+  - first:
+      213: -6556778984585770673
+    second: Interior_Tiles_214
+  - first:
+      213: -8708237530288234307
+    second: Interior_Tiles_215
+  - first:
+      213: -4751163961702185080
+    second: Interior_Tiles_216
+  - first:
+      213: 5222780853303303245
+    second: Interior_Tiles_217
+  - first:
+      213: -7750887704648003371
+    second: Interior_Tiles_218
+  - first:
+      213: 8960513105263002079
+    second: Interior_Tiles_219
+  - first:
+      213: -1141684103964329006
+    second: Interior_Tiles_220
+  - first:
+      213: 2353903325070052727
+    second: Interior_Tiles_221
+  - first:
+      213: -7941000793275976031
+    second: Interior_Tiles_222
+  - first:
+      213: 7806638688560402
+    second: Interior_Tiles_223
+  - first:
+      213: 7941635743762559938
+    second: Interior_Tiles_224
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interior_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1153
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e221cb8c9568c16f0800000000000000
+      internalID: -712546920853401042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1158
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458aa17b4c4c0e810800000000000000
+      internalID: 1792649000858069076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1158
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a428f1e5710ded0800000000000000
+      internalID: -2391385709110736375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1158
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643674f0d1cb082c0800000000000000
+      internalID: -4431335200336157882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1158
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582847e62e6fd3240800000000000000
+      internalID: 4773242632458764933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1150
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cfaaab13a0b9830800000000000000
+      internalID: 4078865096215559254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1150
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff15ddfc5c209f2f0800000000000000
+      internalID: -938715998710836737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6690829b15715910800000000000000
+      internalID: 1824368085344228971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815f7264d73f62d30800000000000000
+      internalID: 4406477004802094360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1576aebb86185710800000000000000
+      internalID: 1682119250277725471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1177
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d1e97351891c1d0800000000000000
+      internalID: -3332215032382612084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1135
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55549656614d1fb50800000000000000
+      internalID: 6625309719494477141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1173
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eed17d26c4ee1300800000000000000
+      internalID: 224868571232198377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1173
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b60fe174f9c46170800000000000000
+      internalID: 8170877675677615796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1173
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bccf1dd42b9f1430800000000000000
+      internalID: 3755891196881259701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1173
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f307cb01ffea5ac0800000000000000
+      internalID: -3865513511580400654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1085
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5185e7d2964d5bda0800000000000000
+      internalID: -5929599786163480555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1080
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d575f6501d4a1ed0800000000000000
+      internalID: -2442555115321330221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1107
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3622b833422205210800000000000000
+      internalID: 1319592229698478691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1080
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3824a581dbd60b0800000000000000
+      internalID: -5733718838281600094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca10f3cbd193380800000000000000
+      internalID: -8991122486720353111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9dd599aa8f45a00800000000000000
+      internalID: 744493250024167882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f9992430ecfc9b0800000000000000
+      internalID: -5057597343116189808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add8f5337a610570800000000000000
+      internalID: 8431137020473564583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1129
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dee9338351a1580800000000000000
+      internalID: -8855742386142253722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1129
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8797ab95e98ad650800000000000000
+      internalID: 6258466251436693389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1129
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229200a3ea2c305d0800000000000000
+      internalID: -3097418065147582174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1129
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da74b249651dd1d0800000000000000
+      internalID: -3324477408094684458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1096
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ce0f4427c827fa0800000000000000
+      internalID: -5804422547316347858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1096
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d71c9697598dbbc0800000000000000
+      internalID: -3765702704129894441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1096
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad819b50ef385e4c0800000000000000
+      internalID: -4258852745567987494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1050
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b8aa96b1885360800000000000000
+      internalID: 7158614228984181047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1086
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e028cdf8a6bf0a0800000000000000
+      internalID: -6846761642374328738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1086
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6c3868a3b890b0800000000000000
+      internalID: -5721625790689546866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1086
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2627683c4356c5110800000000000000
+      internalID: 1250986073795228258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1086
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5861577539c2a80800000000000000
+      internalID: -8490249193664379484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1025
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cabe1b0661f32c60800000000000000
+      internalID: 7792337200856611528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1025
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34eae8bd00985bd0800000000000000
+      internalID: -2641202792841419714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1025
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1039ecdc07a2cfe0800000000000000
+      internalID: -1170189279475191779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 954
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3923fafa04c1ae00800000000000000
+      internalID: 1054339339220363579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1043
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf1ed33339e3c20800000000000000
+      internalID: 3188147434515725245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1043
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5709c63e9738e8d30800000000000000
+      internalID: 4435627242536341621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1043
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e562b604c9fb7d30800000000000000
+      internalID: 4430409278770275811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1043
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4edc5973ca928390800000000000000
+      internalID: -7817515838816330162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 978
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0a12b5362c619f0800000000000000
+      internalID: -497996976791379731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 979
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052fad874d17c0520800000000000000
+      internalID: 2669633836498481744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 980
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331535f0ab0d1b10800000000000000
+      internalID: 1953730599285232433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1007
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d389f580fd7dd1200800000000000000
+      internalID: 152515315318626365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1007
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40d40f8434b79150800000000000000
+      internalID: 5879365976386228301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1007
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa04e67be6774f9c0800000000000000
+      internalID: -3894356460361072465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 954
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfabeb5e05f4f2620800000000000000
+      internalID: 2751505106217122555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 961
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a495d418ac9e27d60800000000000000
+      internalID: 7886622953441155402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 998
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fd0f17144b202b0800000000000000
+      internalID: -5619731191827472576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 998
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674784b9091abed00800000000000000
+      internalID: 1003072984472646774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 998
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92d229a98f0fe1f0800000000000000
+      internalID: -1013574307212504419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 998
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228839cd66a427fa0800000000000000
+      internalID: -5804495164079372254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 961
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db1a0302330ef210800000000000000
+      internalID: 1368534850101451732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 961
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a790ae80ce6a41b0800000000000000
+      internalID: -5671599007414052957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 968
+        width: 70
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff1207669dedb660800000000000000
+      internalID: 7403334592696033265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 953
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a5b7a195377420800000000000000
+      internalID: 2627627807294202591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 953
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca6877dad4458a40800000000000000
+      internalID: 5369773837417736903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 953
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedf14e4b9546e20800000000000000
+      internalID: 3342895456872029875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 953
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9dfff10312efc30800000000000000
+      internalID: 4394986776939190782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 862
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c4c34c458b173f0800000000000000
+      internalID: -904739375915709307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 862
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9adf0d71226b6d80800000000000000
+      internalID: -8256397595882038626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 862
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07185be14e7b29790800000000000000
+      internalID: -7524749836987039376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 894
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7764ed91fb011a0800000000000000
+      internalID: -6840757716151535699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 922
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc6214bcae9fd10800000000000000
+      internalID: 2160015654993186653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 917
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d2afdb1ca5ae920800000000000000
+      internalID: 3020326288267816242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 917
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738acc9069e22c6a0800000000000000
+      internalID: -6430526095987267529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 913
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560f743cda570b3c0800000000000000
+      internalID: -4345844251246464923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 903
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192194e2b5cbd9db0800000000000000
+      internalID: -4783460129393012079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 903
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbee1e7ead408f90800000000000000
+      internalID: -6953472412824441919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 903
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45d408de3365edf0800000000000000
+      internalID: -151605890883726006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 903
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f6a63e451ad0480800000000000000
+      internalID: -8931305100041097432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 862
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652f98fea2fb85b10800000000000000
+      internalID: 1970535028102918742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 873
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80345b047ce092e20800000000000000
+      internalID: 3326206048736723720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 873
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa52ed15bcddf260800000000000000
+      internalID: 7133100055273298603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 873
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656fd4905e0c6310800000000000000
+      internalID: 1399509323463222635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 873
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d953987bb185fa020800000000000000
+      internalID: 2355198006204642717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 873
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de2ea1e30f1c59f0800000000000000
+      internalID: -478473358876463402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 873
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dc8f90f63c612c0800000000000000
+      internalID: -4461163499187811069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 781
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0914f4070b91dba90800000000000000
+      internalID: -7296647575681154672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 781
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb439ab7f99cd70800000000000000
+      internalID: 9063951078528433148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 781
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ee836445b38a70800000000000000
+      internalID: 8828098999909016049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 813
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ce817b61b064a80800000000000000
+      internalID: -8483080655916700665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 798
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51920140245c2eb0800000000000000
+      internalID: -4743323810021600932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 798
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb2a2ec46322b670800000000000000
+      internalID: 8552937558192565220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 788
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508cf36113c7dd890800000000000000
+      internalID: -7431647259822929915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 788
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a5069e7c33dc00800000000000000
+      internalID: 924148862921582145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 788
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0323a064509a5a60800000000000000
+      internalID: 7663596407997276941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_91
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 794
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49976628bcc1488c0800000000000000
+      internalID: -3998038908806465132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_92
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 794
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5669f0b055fbac0800000000000000
+      internalID: -3837254851501857349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_93
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 784
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64bad4bf6fd4070800000000000000
+      internalID: 8092395664654943942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_94
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 698
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf6b73d1b528b5b0800000000000000
+      internalID: -5352486711442313266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_95
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 698
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855a0984eb11a5770800000000000000
+      internalID: 8600205947376280920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_96
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 698
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b65d50e54edc5df0800000000000000
+      internalID: -190032692558080334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 698
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87203740b1a294270800000000000000
+      internalID: 8235159689150792312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_98
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 684
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f563261403188800800000000000000
+      internalID: 614762257408288247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_99
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 724
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450d480840d5d0f00800000000000000
+      internalID: 1084625359183597652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 724
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f62ae7ce2c18d7c0800000000000000
+      internalID: -4046453277944305935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_101
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 725
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e38b4cbf01cbdae0800000000000000
+      internalID: -1523411775607045145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_102
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 701
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30afc5b5a0a575f40800000000000000
+      internalID: 5717137252499126787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_103
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 701
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef969fe9ce40b80800000000000000
+      internalID: -8429352434997264795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_104
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 624
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb29aa79496e4200800000000000000
+      internalID: 166186000570723322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_105
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 624
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90ae3b1832ee490800000000000000
+      internalID: -7715190071662868042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_106
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 595
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfdc3a4c10910520800000000000000
+      internalID: 2666570905559031757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_107
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 610
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216cde6a24710e60800000000000000
+      internalID: 7926744544746168619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_108
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 653
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ee0c86a1be4350800000000000000
+      internalID: 6002930682203923960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 635
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771e5eb82e76f2720800000000000000
+      internalID: 2823589714091958647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_110
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 635
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae33862183efaf0800000000000000
+      internalID: -360789268434261378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_111
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 635
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda77e185da1c8e00800000000000000
+      internalID: 1048242317580270303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_112
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 635
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edea679dba00a050800000000000000
+      internalID: 5809655328713403878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_113
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 614
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90f07d476e99010800000000000000
+      internalID: 1196240565542259153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_114
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 614
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6319378fde1bffbe0800000000000000
+      internalID: -1441237720101580490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_115
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 539
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0933e972dd90c1df0800000000000000
+      internalID: -208280637308783728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_116
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 603
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cc7852bbca92cd0800000000000000
+      internalID: -2582342991531750307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_117
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 603
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2e20271908e6f70800000000000000
+      internalID: 9182418052426425057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_118
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 603
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9671ad4aa20cb500800000000000000
+      internalID: 413208196281366175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_119
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 603
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1038b666066134b0800000000000000
+      internalID: -5462472695344517092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_120
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 603
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099912d49eb1e06c0800000000000000
+      internalID: -4175369115690493552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_121
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 603
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4e25339416a3400800000000000000
+      internalID: 304662891822507226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_122
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 527
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf8d77d48f8be890800000000000000
+      internalID: -7427685359703715891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_123
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 527
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb34847ecdb786b0800000000000000
+      internalID: -5294054142534992958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_124
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 536
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fd33d53e9dd2190800000000000000
+      internalID: -7985486993713537222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_125
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 539
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7f20029bef8aa0800000000000000
+      internalID: -6156443153291314534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_126
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 538
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9657dc84b9716ca70800000000000000
+      internalID: 8846784473724712297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_127
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 539
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97015a1b29cbced60800000000000000
+      internalID: 7920913182869491833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_128
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 534
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761d3b124bc242160800000000000000
+      internalID: 6999768873011761511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_129
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 534
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f42a92aa7768c9d0800000000000000
+      internalID: -2753837395725376270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_130
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 534
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f95090b539540b0800000000000000
+      internalID: -5745023730438529258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_131
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 534
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e8f9c5c81062130800000000000000
+      internalID: 3541519859334483497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_132
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 534
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc63f4284fd5720800000000000000
+      internalID: 2836692180825197896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_133
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 534
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5e8041e193dbd90800000000000000
+      internalID: -7080440237808622084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_134
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 534
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e742d1fcaf2520d30800000000000000
+      internalID: 4396167423437120638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_135
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 534
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893d65f3840d64280800000000000000
+      internalID: -9059324591690296424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_136
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 533
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0bfeb46921d4c40800000000000000
+      internalID: 5498071156817637577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_137
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 532
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfb71403be2df160800000000000000
+      internalID: 7060851137189494730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_138
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 429
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402171f0f519a8970800000000000000
+      internalID: 8757972262836441604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_139
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 429
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a92edb485ae67910800000000000000
+      internalID: 1834911563150928295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_140
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 429
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f458fbf276b92e360800000000000000
+      internalID: 7197486021976491343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_141
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 428
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f8fec30f691bd50800000000000000
+      internalID: 6751343274963734311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_142
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 428
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f267dedde292260800000000000000
+      internalID: 7073236220468670359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_143
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 461
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805b9f1ea3f432a10800000000000000
+      internalID: 1883436183488935176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_144
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 461
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b21ba7be435740800000000000000
+      internalID: 5139538150515980282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_145
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 463
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1847b6af1445e20800000000000000
+      internalID: 3338365767588807157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_146
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 463
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fee8e1a6f7b02b0800000000000000
+      internalID: -5617256016458617072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_147
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 461
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d160f25a0cab7040800000000000000
+      internalID: 4646496600903934418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_148
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 461
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b670c37c80b680800000000000000
+      internalID: -8741332447947999583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_149
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 463
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96f4e5c15549aa60800000000000000
+      internalID: 7685750456599246491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_150
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 463
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941e2dcf168216630800000000000000
+      internalID: 3918457552107659593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_151
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 333
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1158046eb1bdb1330800000000000000
+      internalID: 3682778033179100433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_152
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 411
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86a8ba9d4c79fbb0800000000000000
+      internalID: -4901750046665955699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_153
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 410
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923ebda6a2f06f3b0800000000000000
+      internalID: -5479175221793791191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_154
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 411
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265f40379a5976b0800000000000000
+      internalID: -5298103881227610582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_155
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 410
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb3355dcf88fc6e0800000000000000
+      internalID: -1815081505314882615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_156
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 413
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80bca0e359dfbb0800000000000000
+      internalID: -4900596725807642409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_157
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 368
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd1096fc76feeff0800000000000000
+      internalID: -4795533007774213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_158
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 368
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831b59e7352ce2bf0800000000000000
+      internalID: -347126457399135944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_159
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 368
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654ae80836475c860800000000000000
+      internalID: 7549568321063920726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_160
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 368
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ddf4375b7c5af0800000000000000
+      internalID: -406314251888766743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_161
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 359
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa2ca5b8e98e6290800000000000000
+      internalID: -7895221464160523610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_162
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 359
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b618017bb2478d0800000000000000
+      internalID: -2849604598962754704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_163
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 361
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727c257137523970800000000000000
+      internalID: 8733138497355674234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_164
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 361
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f38691c2b7c070800000000000000
+      internalID: 8126660597137011363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_165
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 348
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd7af94475048cd0800000000000000
+      internalID: -2556912691424100917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_166
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 348
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66d73be93db39a0800000000000000
+      internalID: -6252170979104168210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_167
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 356
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88befa3c0ca5405b0800000000000000
+      internalID: -5403093868974445688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_168
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 356
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74760c7d92187e0800000000000000
+      internalID: -1765083572329822222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_169
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 349
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ab98349ed074d0800000000000000
+      internalID: -3138764212090984959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_170
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 349
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07202fac6ad0d5510800000000000000
+      internalID: 1539401657651167856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_171
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 357
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e890c1be04be70800000000000000
+      internalID: 9129938501190083126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_172
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 357
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035127b872774cab0800000000000000
+      internalID: -4988731475492727504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_173
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 340
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88782e923b303c1f0800000000000000
+      internalID: -1025972222073600120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_174
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 321
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022557669d3e01390800000000000000
+      internalID: -7849523627640401376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_175
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 321
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aefba53d2137c590800000000000000
+      internalID: -7654094971449114972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_176
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 309
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8af7cd6d891be0800000000000000
+      internalID: -1506017097732682830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_177
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 308
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2b8ea9927e10960800000000000000
+      internalID: 7566583014837760698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_178
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 300
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da3a2747a26d8cf0800000000000000
+      internalID: -248433933842498864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_179
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 300
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b46353b4d574520800000000000000
+      internalID: 2686218280346471300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_180
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 308
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e574e1b4797ee7a0800000000000000
+      internalID: -6346001282810743328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_181
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 308
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a55e30a33de0c80800000000000000
+      internalID: -8354508012598764958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_182
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 300
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65b6295e3af45a40800000000000000
+      internalID: 5356181002540987754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_183
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 300
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bbc4dd0834aa5f0800000000000000
+      internalID: -744708567628727517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_184
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 308
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08d51d997372870800000000000000
+      internalID: 8657949942425157885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_185
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 308
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a860760257e6f300800000000000000
+      internalID: 285669965865969824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_186
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 266
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e9ef4f35466af90800000000000000
+      internalID: -6942751463789650395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_187
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 296
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79efe830caeef6f0800000000000000
+      internalID: -648823184984905345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_188
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adedf5218228e0e0800000000000000
+      internalID: -2240502876533297760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_189
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5c45941399eb50800000000000000
+      internalID: 6622986443638463658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_190
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24daa6e476abf7e40800000000000000
+      internalID: 5656444609860644162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_191
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99de023a10085a560800000000000000
+      internalID: 7324401113508146585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_192
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa82c057518a2fe0800000000000000
+      internalID: -1213014937605862658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_193
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4877d9a180dc560800000000000000
+      internalID: 7335528278460433582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_194
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296fbf6d3128bac50800000000000000
+      internalID: 6677573894229718674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_195
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2587580a57a4440800000000000000
+      internalID: 4920874875150160610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_196
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 229
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a3331e81dc5e90800000000000000
+      internalID: -7035518109721844505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_197
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 229
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb12c3d7ff865f20800000000000000
+      internalID: 3411072062352137163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_198
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 247
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed35ec4bf8681e70800000000000000
+      internalID: 9086127676756147685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_199
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 247
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878fc25aaea7e6dd0800000000000000
+      internalID: -2490918395677181832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_200
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 255
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9b81d11e08fa820800000000000000
+      internalID: 2931703586785638882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_201
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 255
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d027f221cc5fc60800000000000000
+      internalID: 7851405903867809067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_202
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 247
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbac7d268734acc0800000000000000
+      internalID: -3700771944363414592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_203
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 247
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b10169cd3ae43f0800000000000000
+      internalID: -914613506503861402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_204
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 255
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c98842cfe8ab60800000000000000
+      internalID: 7757713975865360879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_205
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 255
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066c37c362843a0b0800000000000000
+      internalID: -5718647772770220448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_206
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 121
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9130c9101ea4be0800000000000000
+      internalID: -1492132929491232293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_207
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 121
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff97a100883583cc0800000000000000
+      internalID: -3731140447694063105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_208
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 153
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287f7123d7af1b000800000000000000
+      internalID: 50096486496073602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_209
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 153
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48228d839f1947c0800000000000000
+      internalID: -4086700468267243445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_210
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 153
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea729401765dae0b0800000000000000
+      internalID: -5698507739852363858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_211
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 153
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f6fbf6bee3c0cf0800000000000000
+      internalID: -284783495518130337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_212
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 153
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3636ce5275cfd7b60800000000000000
+      internalID: 7745624385375724387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_213
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 20
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49123f0971cb5710800000000000000
+      internalID: 1683151611443157325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_214
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 20
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49c409b044a105a0800000000000000
+      internalID: -6556778984585770673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_215
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e17bba10262780800000000000000
+      internalID: -8708237530288234307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_216
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 85
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8878a11bc89701eb0800000000000000
+      internalID: -4751163961702185080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_217
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 85
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cdadcb38b0b7840800000000000000
+      internalID: 5222780853303303245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_218
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 85
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d05386d2b05f6490800000000000000
+      internalID: -7750887704648003371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_219
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 85
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10f64c1332a5c70800000000000000
+      internalID: 8960513105263002079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_220
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 11
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbfe793b5ce720f0800000000000000
+      internalID: -1141684103964329006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_221
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 10
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d49664a9ebaa020800000000000000
+      internalID: 2353903325070052727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_222
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 13
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b0bb0ad5ebc190800000000000000
+      internalID: -7941000793275976031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_223
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 14
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215ebe5b81cbb1000800000000000000
+      internalID: 7806638688560402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior_Tiles_224
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 14
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c33382e1ab563e60800000000000000
+      internalID: 7941635743762559938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
