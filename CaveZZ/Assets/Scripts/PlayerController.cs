@@ -72,7 +72,6 @@ public class PlayerController : MonoBehaviour
 
                     transform.localScale = characterScale;
                 }
-
             }
             else
             {
@@ -97,7 +96,7 @@ public class PlayerController : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
-            else if (interacted.item == Items.Item.LeverSocket)
+            else if (interacted.item == Items.Item.LeverSocket || interacted.item == Items.Item.DoorNote)
             {
             }
             else if ((int)interacted.item >= interacted.RangeOtherAfter)
@@ -124,11 +123,13 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         interactItem = collision.gameObject;
+        Debug.Log("e");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         interactItem = null;
+        Debug.Log("o");
     }
 
     public void CloseInteractPanel()

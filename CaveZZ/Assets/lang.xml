@@ -43,16 +43,16 @@
 
 	<!-- Game / DatePanel -->
 	<text name='PastDate'>
+		<english>24 June 2005</english>
+		<turkish>24 Haziran 2005</turkish>
+	</text>
+	<text name='NowDate'>
 		<english>27 June 2005</english>
 		<turkish>27 Haziran 2005</turkish>
 	</text>
-	<text name='NowDate'>
+	<text name='FutureDate'>
 		<english>30 June 2005</english>
 		<turkish>30 Haziran 2005</turkish>
-	</text>
-	<text name='FutureDate'>
-		<english>33 June 2005</english>
-		<turkish>33 Haziran 2005</turkish>
 	</text>
 	<text name='GoPastText'>
 		<english>Go Past</english>

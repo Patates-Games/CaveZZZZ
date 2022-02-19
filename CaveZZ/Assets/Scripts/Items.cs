@@ -6,7 +6,7 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class Items : MonoBehaviour
 {
-    public GameObject script;
+    GameObject script;
     PlayerController playerController;
     LanguageManager languageManager;
     Inventory inventory;
@@ -14,6 +14,7 @@ public class Items : MonoBehaviour
 
     private void Start()
     {
+        script = GameObject.FindGameObjectWithTag("Script");
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>(); ;
         languageManager = script.GetComponent<LanguageManager>();
         inventory = script.GetComponent<Inventory>();
@@ -26,25 +27,35 @@ public class Items : MonoBehaviour
         DoorExit,
         DoorLocked,
         DoorOpen,
+        DoorNote,
 
         Lockpick,
         Lever,
         KeyExit,
+        KeyNote,
         SafeNote,
 
         Safe,
         LeverSocket,
     }
     public Item item;
-    public int RangeItemStart = 4;
-    public int RangeItemEnd = 7;
-    public int RangeOtherAfter = 8;
+
+    [HideInInspector]
+    public int RangeItemStart = 5;
+
+    [HideInInspector]
+    public int RangeItemEnd = 9;
+
+    [HideInInspector]
+    public int RangeOtherAfter = 10;
 
     public void GetInteract()
     {
         if (item == Item.DoorExit) InteractExitDoor();
         else if (item == Item.DoorLocked) InteractUnlockDoor();
         else if (item == Item.DoorOpen) InteractDoor();
+        else if (item == Item.DoorNote) InteractNoteDoor();
+
         else if (RangeItemEnd >= (int)item && (int)item >= RangeItemStart) InteractItem();
         else if ((int)item >= RangeOtherAfter) InteractOthers();
     }
@@ -74,6 +85,16 @@ public class Items : MonoBehaviour
     {
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+    }
+
+    void InteractNoteDoor()
+    {
+        if (inventory.UseItem(Item.KeyNote))
+        {
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+        }
+        else messages.GetSubtitle("NoLockpick");
     }
 
     void InteractItem()

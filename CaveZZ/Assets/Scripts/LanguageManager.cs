@@ -56,7 +56,7 @@ public class LanguageManager : MonoBehaviour
         {
             string label = texts[i].gameObject.name;
             dic.TryGetValue(label, out label);
-            Debug.Log(texts[i].gameObject.name);
+
             texts[i].gameObject.GetComponent<TextMeshProUGUI>().text = label;
         }
     }
