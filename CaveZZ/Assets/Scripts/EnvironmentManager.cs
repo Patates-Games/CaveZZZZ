@@ -45,25 +45,22 @@ public class EnvironmentManager : MonoBehaviour
         door.GetComponent<BoxCollider2D>().enabled = false;
         door.GetComponent<CapsuleCollider2D>().enabled = false;
         door.GetComponent<SpriteRenderer>().enabled = false;
-        door.GetComponent<ShadowCaster2D>().enabled = false;
+
         if (timeController.time == TimeController.Times.Past)
         {
             doorNow[index].GetComponent<BoxCollider2D>().enabled = false;
             doorNow[index].GetComponent<CapsuleCollider2D>().enabled = false;
             doorNow[index].GetComponent<SpriteRenderer>().enabled = false;
-            doorNow[index].GetComponent<ShadowCaster2D>().enabled = false;
 
             doorFuture[index].GetComponent<BoxCollider2D>().enabled = false;
             doorFuture[index].GetComponent<CapsuleCollider2D>().enabled = false;
             doorFuture[index].GetComponent<SpriteRenderer>().enabled = false;
-            doorFuture[index].GetComponent<ShadowCaster2D>().enabled = false;
         }
         if (timeController.time == TimeController.Times.Now)
         {
             doorFuture[index].GetComponent<BoxCollider2D>().enabled = false;
             doorFuture[index].GetComponent<CapsuleCollider2D>().enabled = false;
             doorFuture[index].GetComponent<SpriteRenderer>().enabled = false;
-            doorFuture[index].GetComponent<ShadowCaster2D>().enabled = false;
         }
     }
 

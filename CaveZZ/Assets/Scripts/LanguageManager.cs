@@ -71,7 +71,7 @@ public class LanguageManager : MonoBehaviour
 
     void CreateXmlDic()
     {
-        using var reader = XmlReader.Create("Assets/lang.xml");
+        using var reader = XmlReader.Create("TimeShifter_Data/Resources/lang.xml");
         reader.ReadToFollowing("text");
 
         do

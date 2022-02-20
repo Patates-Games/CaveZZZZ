@@ -10,19 +10,22 @@ public class PlayerController : MonoBehaviour
     public GameObject interactPanel;
     public GameObject interactShown;
     public GameObject interactText;
+    public GameObject infoPanel;
 
     public GameObject datePanel;
     public bool canMove = true;
     public bool timePanelOpen = true;
 
     public Sprite keyExitSprite;
-    GameObject interactItem = null;
+    public GameObject interactItem = null;
     Rigidbody2D rbody;
     public float speed = 500f;
     Animator animator;
     TimeController timeController;
     Inventory inventory;
     Messages messages;
+    public TextMeshProUGUI infoText;
+
     void Start()
     {
         messages = GameObject.FindGameObjectWithTag("Script").GetComponent<Messages>();
@@ -67,11 +70,11 @@ public class PlayerController : MonoBehaviour
             if(move != Vector2.zero)
             {
                 rbody.velocity = move;
-                 
                 AnimationScript(walkingLeft, walkingRight, walkingUp, walkingDown);
             }
             else
             {
+                //GetComponent<AudioSource>().Stop();
                 rbody.velocity = Vector2.zero;
                 animator.SetBool("walkingUp", false);
                 animator.SetBool("walkingDown", false);
@@ -81,14 +84,6 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Interact") && interactItem != null)
         {
-
-            if (FirstDoor.info == false)
-            {
-                if (interactItem.name == "FirstDoorPast" || interactItem.name == "FirstDoorNow" || interactItem.name == "FirstDoorFuture")
-                {
-                    FirstDoor.interact = true;
-                }
-            }
             Items interacted = interactItem.gameObject.GetComponent<Items>();
 
             if (interacted.RangeItemEnd >= (int)interacted.item && (int)interacted.item >= interacted.RangeItemStart)
@@ -100,7 +95,7 @@ public class PlayerController : MonoBehaviour
                     interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 10;
                 else
                     interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
-                
+
                 languageManager.SetSubtitle(interactText.GetComponent<TextMeshProUGUI>(), interactItem.GetComponent<Items>().item.ToString());
                 interactPanel.SetActive(true);
                 Cursor.visible = true;
@@ -114,15 +109,15 @@ public class PlayerController : MonoBehaviour
                 CanMove(false);
                 interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
 
-                interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel(interacted.item.ToString());
+                interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel(interacted.item.ToString(), languageManager.language);
                 if (interacted.item == Items.Item.Safe)
                 {
                     if(timeController.time != TimeController.Times.Now)
                     {
                         if(inventory.FindItem(Items.Item.SafeNote))
-                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("SafeEmpty");
+                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("SafeEmpty", languageManager.language);
                         else
-                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("Safe");
+                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("Safe", languageManager.language);
                     }
                     interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 15;
                 }
@@ -162,6 +157,14 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         CanMove(true);
+    }
+
+    public IEnumerator GetInfo(float time = 2f)
+    {
+        infoPanel.SetActive(true);
+        infoPanel.GetComponent<Animator>().SetTrigger("Show");
+        yield return new WaitForSeconds(time);
+        infoPanel.GetComponent<Animator>().SetTrigger("Hide");
     }
 
     void AnimationScript(float walkingLeft, float walkingRight, float walkingUp, float walkingDown)

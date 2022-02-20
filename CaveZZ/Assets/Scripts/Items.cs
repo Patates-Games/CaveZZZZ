@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Items : MonoBehaviour
@@ -13,10 +14,11 @@ public class Items : MonoBehaviour
     LanguageManager languageManager;
     Inventory inventory;
     Messages messages;
-
+    DoorManager doorManager;
     private void Start()
     {
         script = GameObject.FindGameObjectWithTag("Script");
+        doorManager = script.GetComponent<DoorManager>();
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         environmentManager = script.GetComponent<EnvironmentManager>();
         languageManager = script.GetComponent<LanguageManager>();
@@ -54,10 +56,40 @@ public class Items : MonoBehaviour
 
     public void GetInteract()
     {
-        if (item == Item.DoorExit) InteractExitDoor();
-        else if (item == Item.DoorLocked) InteractUnlockDoor();
-        else if (item == Item.DoorOpen) InteractDoor();
-        else if (item == Item.DoorNote) InteractNoteDoor();
+        if (gameObject.name == "FirstDoorPast")
+        {
+            FirstDoor.interact = true;
+            GetComponent<AudioSource>().Play();
+        }
+        else if (gameObject.name == "FirstDoorNow" || gameObject.name == "FirstDoorFuture")
+        {
+            if (!FirstDoor.info)
+            {
+                StartCoroutine(playerController.GetInfo());
+                FirstDoor.info = true;
+            }
+            GetComponent<AudioSource>().Play();
+        }
+        if (item == Item.DoorExit)
+        {
+            InteractExitDoor();
+            GetComponent<AudioSource>().Play();
+        }
+        else if (item == Item.DoorLocked)
+        {
+            InteractUnlockDoor();
+            GetComponent<AudioSource>().Play();
+        }
+        else if (item == Item.DoorOpen)
+        {
+            InteractDoor();
+            GetComponent<AudioSource>().Play();
+        }
+        else if (item == Item.DoorNote)
+        {
+            InteractNoteDoor();
+            GetComponent<AudioSource>().Play();
+        }
 
         else if (RangeItemEnd >= (int)item && (int)item >= RangeItemStart) InteractItem();
         else if ((int)item >= RangeOtherAfter) InteractOthers();
@@ -65,17 +97,49 @@ public class Items : MonoBehaviour
 
     void InteractExitDoor()
     {
-        if (inventory.UseItem(Item.KeyExit))
+        if (FirstDoor.canExit)
         {
-            messages.GetSubtitle("ExitDoorSuccess");
-            // END GAME SCRIPT
+            if (inventory.UseItem(Item.KeyExit))
+            {
+                messages.GetSubtitle("ExitDoorSuccess");
+                SceneManager.LoadScene("GameOver", LoadSceneMode.Additive);
+            }
+            else messages.GetSubtitle("ExitDoorFailedWithoutKey");
         }
         else messages.GetSubtitle("ExitDoorFailed");
     }
 
     void InteractUnlockDoor()
     {
-        if (inventory.UseItem(Item.Lockpick))
+        Door door;
+        if (gameObject.TryGetComponent<Door>(out door))
+        {
+            if (doorManager.IsUnlockedBefore(gameObject.GetComponent<Door>().doorType))
+            {
+                messages.GetSubtitle("UnlockedBefore");
+                if (!FirstDoor.firstTime)
+                {
+                    FirstDoor.firstTime = true;
+                    GameObject[] texts = GameObject.FindGameObjectsWithTag("Text");
+                    for(int i = 0; i < texts.Length; i++)
+                    {
+                        if(texts[i].name == "InfoText")
+                        {
+                            texts[i].GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("UnlockedBeforeInfo", languageManager.language);
+                            StartCoroutine(playerController.GetInfo(3f));
+                        }
+                    }
+                }
+            }
+            else if (inventory.UseItem(Item.Lockpick))
+            {
+                messages.GetSubtitle("Unlocked");
+                doorManager.OpenDoor(gameObject.GetComponent<Door>().doorType);
+                environmentManager.OpenDoorInTimeline(gameObject);
+            }
+            else messages.GetSubtitle("NoLockpick");
+        }
+        else if (inventory.UseItem(Item.Lockpick))
         {
             messages.GetSubtitle("Unlocked");
             environmentManager.OpenDoorInTimeline(gameObject);
@@ -95,6 +159,10 @@ public class Items : MonoBehaviour
             if (inventory.UseItem(Item.KeyNote))
             {
                 environmentManager.OpenDoorInTimeline(gameObject);
+            }
+            else
+            {
+                messages.GetSubtitle("NoNote");
             }
         }
         else messages.GetSubtitle("NoNote");
@@ -120,7 +188,7 @@ public class Items : MonoBehaviour
                 {
                     inventory.UseItem(Item.SafeNote);
                     inventory.AddItem(Item.KeyExit);
-                    playerController.interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("KeyExit");
+                    playerController.interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("KeyExit", languageManager.language);
                     playerController.interactShown.GetComponent<RectTransform>().sizeDelta = new Vector2(200f, 200f);
                     playerController.interactShown.GetComponent<Image>().sprite = playerController.keyExitSprite;
                     gameObject.GetComponent<Items>().enabled = false;
@@ -136,6 +204,8 @@ public class Items : MonoBehaviour
             {
                 if (inventory.FindItem(Item.Lever))
                 {
+                    GetComponent<AudioSource>().Play();
+
                     inventory.UseItem(Item.Lever, false);
                     GameObject.FindGameObjectWithTag("Shelf").GetComponent<Animator>().SetTrigger("LeverUsed");
                     StartCoroutine(GetLight(GameObject.FindGameObjectWithTag("Shelf").GetComponentInParent<Light2D>()));
@@ -152,7 +222,10 @@ public class Items : MonoBehaviour
             {
                 if (inventory.FindItem(Item.Lever))
                 {
+                    GetComponent<AudioSource>().Play();
+
                     inventory.UseItem(Item.Lever, false);
+                    FirstDoor.canExit = true;
                     GameObject.FindGameObjectWithTag("Grid").GetComponent<Animator>().SetTrigger("ExitOpen");
                     messages.GetSubtitle("ExitLeverUsed");
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;

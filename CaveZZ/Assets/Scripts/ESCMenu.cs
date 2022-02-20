@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ESCMenu : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class ESCMenu : MonoBehaviour
         {
             if (!isMenuActive)
             {
+                Time.timeScale = 0f;
                 isCursorOpen = IsCursorOpen();
                 escMenu.SetActive(true);
                 CursorOpenClose(true);
@@ -22,6 +24,7 @@ public class ESCMenu : MonoBehaviour
             }
             else
             {
+                Time.timeScale = 1f;
                 escMenu.SetActive(false);
                 CursorOpenClose(isCursorOpen);
 
@@ -32,6 +35,7 @@ public class ESCMenu : MonoBehaviour
 
     public void CloseMenu()
     {
+        Time.timeScale = 1f;
         escMenu.SetActive(false);
         CursorOpenClose(isCursorOpen);
 
@@ -42,6 +46,18 @@ public class ESCMenu : MonoBehaviour
     {
         if(Cursor.visible) return true;
         else return false;
+    }
+
+    public void MainMenu()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     void CursorOpenClose(bool open)

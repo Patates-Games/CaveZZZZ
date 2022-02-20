@@ -11,11 +11,10 @@ public class Messages : MonoBehaviour
 
     public void GetSubtitle(string titleId, float time = 2f)
     {
-        if (FirstDoor.interact)
+        if (!FirstDoor.interact)
         {
             StartCoroutine(ShowSubtitle("StartInfo", 5f));
-            FirstDoor.info = true;
-            FirstDoor.interact = false;
+            FirstDoor.interact = true;
         } else
         {
             StartCoroutine(ShowSubtitle(titleId, time));
