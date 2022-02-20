@@ -79,10 +79,9 @@ public class TimeController : MonoBehaviour
 
     IEnumerator HoldPanel()
     {
-        playerController.timePanelOpen = true;
-        Input.ResetInputAxes();
-        yield return new WaitForSeconds(2f);
         playerController.timePanelOpen = false;
+        yield return new WaitForSeconds(2f);
+        playerController.timePanelOpen = true;
     }
 
 }

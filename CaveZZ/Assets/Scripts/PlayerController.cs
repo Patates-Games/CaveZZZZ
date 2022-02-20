@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject datePanel;
     public bool canMove = true;
-    public bool timePanelOpen = false;
+    public bool timePanelOpen = true;
 
     public Sprite keyExitSprite;
     GameObject interactItem = null;
@@ -36,16 +36,20 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("TimeKey"))
         {
-            if (!timePanelOpen)
+            if (timePanelOpen)
             {
-                timePanelOpen = !timePanelOpen;
-                Cursor.visible = !Cursor.visible;
-                if (Cursor.lockState == CursorLockMode.Locked)
+                if (!datePanel.activeSelf)
+                {
+                    datePanel.SetActive(true);
+                    Cursor.visible = true;
                     Cursor.lockState = CursorLockMode.None;
-                else Cursor.lockState = CursorLockMode.Locked;
-
-                datePanel.SetActive(!datePanel.activeSelf);
-                CanMove(!canMove);
+                }
+                else
+                {
+                    datePanel.SetActive(false);
+                    Cursor.visible = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
             }
         }
 
