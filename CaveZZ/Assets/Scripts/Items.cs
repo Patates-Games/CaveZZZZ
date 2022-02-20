@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.UI;
 
 public class Items : MonoBehaviour
 {
+    EnvironmentManager environmentManager;
     GameObject script;
     PlayerController playerController;
     LanguageManager languageManager;
@@ -15,7 +17,8 @@ public class Items : MonoBehaviour
     private void Start()
     {
         script = GameObject.FindGameObjectWithTag("Script");
-        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>(); ;
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        environmentManager = script.GetComponent<EnvironmentManager>();
         languageManager = script.GetComponent<LanguageManager>();
         inventory = script.GetComponent<Inventory>();
         messages = script.GetComponent<Messages>();
@@ -75,33 +78,35 @@ public class Items : MonoBehaviour
         if (inventory.UseItem(Item.Lockpick))
         {
             messages.GetSubtitle("Unlocked");
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+            environmentManager.OpenDoorInTimeline(gameObject);
         }
         else messages.GetSubtitle("NoLockpick");
     }
 
     void InteractDoor()
     {
-        gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+        environmentManager.OpenDoorInTimeline(gameObject);
     }
 
     void InteractNoteDoor()
     {
-        if (inventory.UseItem(Item.KeyNote))
+        if (script.GetComponent<TimeController>().time == TimeController.Times.Now)
         {
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+            if (inventory.UseItem(Item.KeyNote))
+            {
+                environmentManager.OpenDoorInTimeline(gameObject);
+            }
         }
-        else messages.GetSubtitle("NoLockpick");
+        else messages.GetSubtitle("NoNote");
     }
 
     void InteractItem()
     {
         if (inventory.AddItem(item))
         {
-            Destroy(gameObject);
+            gameObject.transform.position = new Vector3(1000f, 1000f, 1000f);
+            //gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
     }
 
@@ -111,25 +116,52 @@ public class Items : MonoBehaviour
         {
             if (inventory.FindItem(Item.SafeNote))
             {
-                inventory.UseItem(Item.SafeNote);
-                inventory.AddItem(Item.KeyExit);
-                playerController.interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("KeyExit");
-                gameObject.tag = "Untagged";
+                if(script.GetComponent<TimeController>().time == TimeController.Times.Now)
+                {
+                    inventory.UseItem(Item.SafeNote);
+                    inventory.AddItem(Item.KeyExit);
+                    playerController.interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("KeyExit");
+                    playerController.interactShown.GetComponent<RectTransform>().sizeDelta = new Vector2(200f, 200f);
+                    playerController.interactShown.GetComponent<Image>().sprite = playerController.keyExitSprite;
+                    gameObject.GetComponent<Items>().enabled = false;
+                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+                    gameObject.tag = "Untagged";
+                }
             }
         }
         else if (item == Item.LeverSocket)
         {
-            if (inventory.FindItem(Item.Lever))
+            if (gameObject.name != "ExitLeverSocket")
             {
-                inventory.UseItem(Item.Lever);
-                GameObject.FindGameObjectWithTag("Shelf").GetComponent<Animator>().SetTrigger("LeverUsed");
-                StartCoroutine(GetLight(GameObject.FindGameObjectWithTag("Shelf").GetComponentInParent<Light2D>()));
-                messages.GetSubtitle("LeverUsed");
+                if (inventory.FindItem(Item.Lever))
+                {
+                    inventory.UseItem(Item.Lever, false);
+                    GameObject.FindGameObjectWithTag("Shelf").GetComponent<Animator>().SetTrigger("LeverUsed");
+                    StartCoroutine(GetLight(GameObject.FindGameObjectWithTag("Shelf").GetComponentInParent<Light2D>()));
+                    messages.GetSubtitle("LeverUsed");
+                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                }
+                else
+                {
+                    messages.GetSubtitle("NoLever");
+                    gameObject.tag = "Untagged";
+                }
             }
             else
             {
-                messages.GetSubtitle("NoLever");
-                gameObject.tag = "Untagged";
+                if (inventory.FindItem(Item.Lever))
+                {
+                    inventory.UseItem(Item.Lever, false);
+                    GameObject.FindGameObjectWithTag("Grid").GetComponent<Animator>().SetTrigger("ExitOpen");
+                    messages.GetSubtitle("ExitLeverUsed");
+                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                }
+                else
+                {
+                    messages.GetSubtitle("NoLever");
+                    gameObject.tag = "Untagged";
+                }
             }
         }
     }

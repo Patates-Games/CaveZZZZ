@@ -13,14 +13,21 @@ public class PlayerController : MonoBehaviour
 
     public GameObject datePanel;
     public bool canMove = true;
+    public bool timePanelOpen = false;
+
+    public Sprite keyExitSprite;
     GameObject interactItem = null;
     Rigidbody2D rbody;
-    public float speed = 1500f;
+    public float speed = 500f;
     Animator animator;
-
-
+    TimeController timeController;
+    Inventory inventory;
+    Messages messages;
     void Start()
     {
+        messages = GameObject.FindGameObjectWithTag("Script").GetComponent<Messages>();
+        timeController = GameObject.FindGameObjectWithTag("Script").GetComponent<TimeController>();
+        inventory = GameObject.FindGameObjectWithTag("Script").GetComponent<Inventory>();
         rbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -29,49 +36,35 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("TimeKey"))
         {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
-            datePanel.SetActive(!datePanel.activeSelf);
-            if(datePanel.activeSelf) CanMove(false);
-            else CanMove(true);
+            if (!timePanelOpen)
+            {
+                timePanelOpen = !timePanelOpen;
+                Cursor.visible = !Cursor.visible;
+                if (Cursor.lockState == CursorLockMode.Locked)
+                    Cursor.lockState = CursorLockMode.None;
+                else Cursor.lockState = CursorLockMode.Locked;
+
+                datePanel.SetActive(!datePanel.activeSelf);
+                CanMove(!canMove);
+            }
         }
+
 
         //if (Input.GetButtonUp("Run")) speed = 2500f;
         //if (Input.GetButtonDown("Run")) speed = 4000f;
         if (canMove)
         {
-            bool walkingLeft = false;
-            bool walkingRight = false;
-            bool walkingUp = false;
-            bool walkingDown = false;
-
-            if (Input.GetAxis("Horizontal") < 0) walkingLeft = true;
-            if (Input.GetAxis("Horizontal") > 0) walkingRight = true;
-            if (Input.GetAxis("Vertical") > 0) walkingUp = true;
-            if (Input.GetAxis("Vertical") < 0) walkingDown = true;
+            float walkingLeft = Input.GetAxis("Horizontal");
+            float walkingRight = Input.GetAxis("Horizontal");
+            float walkingUp = Input.GetAxis("Vertical");
+            float walkingDown = Input.GetAxis("Vertical");
 
             Vector2 move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * Time.deltaTime * speed;
             if(move != Vector2.zero)
             {
                 rbody.velocity = move;
-                animator.SetBool("walkingUp", walkingUp);
-                animator.SetBool("walkingDown", walkingDown);
-                animator.SetBool("walkingSide", walkingLeft || walkingRight);
-
-                if (walkingRight)
-                {
-                    Vector3 characterScale = transform.localScale;
-                    characterScale.x = -0.25f;
-
-                    transform.localScale = characterScale;
-                }
-                else
-                {
-                    Vector3 characterScale = transform.localScale;
-                    characterScale.x = 0.25f;
-
-                    transform.localScale = characterScale;
-                }
+                 
+                AnimationScript(walkingLeft, walkingRight, walkingUp, walkingDown);
             }
             else
             {
@@ -84,13 +77,26 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Interact") && interactItem != null)
         {
+
+            if (FirstDoor.info == false)
+            {
+                if (interactItem.name == "FirstDoorPast" || interactItem.name == "FirstDoorNow" || interactItem.name == "FirstDoorFuture")
+                {
+                    FirstDoor.interact = true;
+                }
+            }
             Items interacted = interactItem.gameObject.GetComponent<Items>();
 
             if (interacted.RangeItemEnd >= (int)interacted.item && (int)interacted.item >= interacted.RangeItemStart)
             {
                 CanMove(false);
                 interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
-                interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+                
+                if(interacted.item == Items.Item.Lever)
+                    interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 10;
+                else
+                    interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+                
                 languageManager.SetSubtitle(interactText.GetComponent<TextMeshProUGUI>(), interactItem.GetComponent<Items>().item.ToString());
                 interactPanel.SetActive(true);
                 Cursor.visible = true;
@@ -103,8 +109,24 @@ public class PlayerController : MonoBehaviour
             {
                 CanMove(false);
                 interactShown.GetComponent<Image>().sprite = interactItem.GetComponent<SpriteRenderer>().sprite;
-                interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+
                 interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel(interacted.item.ToString());
+                if (interacted.item == Items.Item.Safe)
+                {
+                    if(timeController.time != TimeController.Times.Now)
+                    {
+                        if(inventory.FindItem(Items.Item.SafeNote))
+                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("SafeEmpty");
+                        else
+                            interactText.GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("Safe");
+                    }
+                    interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 15;
+                }
+                else
+                {
+                    interactShown.GetComponent<RectTransform>().sizeDelta = interactItem.GetComponent<SpriteRenderer>().sprite.pivot * 2;
+                }
+                
                 interactPanel.SetActive(true);
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
@@ -123,13 +145,11 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         interactItem = collision.gameObject;
-        Debug.Log("e");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         interactItem = null;
-        Debug.Log("o");
     }
 
     public void CloseInteractPanel()
@@ -140,9 +160,58 @@ public class PlayerController : MonoBehaviour
         CanMove(true);
     }
 
-    IEnumerator InteractCoroutine()
+    void AnimationScript(float walkingLeft, float walkingRight, float walkingUp, float walkingDown)
     {
-        yield return new WaitForSeconds(1);
-        CanMove(true);
+        bool up, down, left, right;
+
+        if (walkingUp > 0.2f)
+        {
+            up = true;
+            down = false;
+        }
+        else if (walkingDown < -0.2f)
+        {
+            up = false;
+            down = true;
+        }
+        else
+        {
+            up = false;
+            down = false;
+        }
+        //
+        if (walkingRight > 0.2f)
+        {
+            right = true;
+            left = false;
+            Vector3 characterScale = transform.localScale;
+            characterScale.x = -0.25f;
+
+            transform.localScale = characterScale;
+        }
+        else if (walkingLeft < -0.2f)
+        {
+            right = false;
+            left = true;
+            Vector3 characterScale = transform.localScale;
+            characterScale.x = 0.25f;
+
+            transform.localScale = characterScale;
+        }
+        else
+        {
+            right = false;
+            left = false;
+        }
+
+        if(left || right)
+        {
+            up = false;
+            down = false;
+        }
+
+        animator.SetBool("walkingUp", up);
+        animator.SetBool("walkingDown", down);
+        animator.SetBool("walkingSide", right || left);
     }
 }

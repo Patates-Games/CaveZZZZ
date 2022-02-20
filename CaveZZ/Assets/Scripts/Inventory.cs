@@ -5,7 +5,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public Messages messages;
-    public Items.Item[] items = new Items.Item[5];
+    public Items.Item[] items = new Items.Item[6];
 
     public bool AddItem(Items.Item item)
     {

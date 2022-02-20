@@ -6,6 +6,11 @@
 		<english>START GAME</english>
 		<turkish>OYUNA BAŞLA</turkish>
 	</text>
+	<text name='KeyBindingsText'>
+		<english>KEYBINDINGS</english>
+		<turkish>TUŞ ATAMALARI</turkish>
+	</text>
+
 	<text name='OptionsText'>
 		<english>OPTIONS</english>
 		<turkish>AYARLAR</turkish>
@@ -41,6 +46,36 @@
 		<turkish>GERİ</turkish>
 	</text>
 
+	<!-- MainMenu / KeybindPanel -->
+	<text name='MovementText'>
+		<english>   MOVEMENT</english>
+		<turkish>   HAREKET</turkish>
+	</text>
+	<text name='InteractText'>
+		<english>   INTERACT</english>
+		<turkish>   ETKİLEŞİM</turkish>
+	</text>
+	<text name='TimeShiftText'>
+		<english>   TIME SHIFTING</english>
+		<turkish>   ZAMAN YOLCULUĞU</turkish>
+	</text>
+	
+	<!-- Game / ESCPanel  -->
+	<text name='ESCHeader'>
+		<english>GAME PAUSED</english>
+		<turkish>OYUN DURAKLATILDI</turkish>
+	</text>
+	
+	<text name='MenuText'>
+		<english>MAIN MENU</english>
+		<turkish>ANA MENÜ</turkish>
+	</text>
+	
+	<text name='ContinueText'>
+		<english>CONTINUE</english>
+		<turkish>DEVAM ET</turkish>
+	</text>
+	
 	<!-- Game / DatePanel -->
 	<text name='PastDate'>
 		<english>24 June 2005</english>
@@ -54,6 +89,11 @@
 		<english>30 June 2005</english>
 		<turkish>30 Haziran 2005</turkish>
 	</text>
+	<text name='CurrentDate'>
+		<english>27 June 2005</english>
+		<turkish>27 Haziran 2005</turkish>
+	</text>
+	
 	<text name='GoPastText'>
 		<english>Go Past</english>
 		<turkish>Geçmişe Git</turkish>
@@ -76,6 +116,11 @@
 		<english>Subtitle</english>
 		<turkish>Altyazı</turkish>
 	</text>
+	<text name='StartInfo'>
+		<english>Damn it, the door is locked! Maybe it wasn't locked in the past. Maybe it won't be locked in the future.</english>
+		<turkish>Lanet olsun, kapı kilitli! Belki geçmişte kilitli değildi. Belki de gelecekte kilitli olmayacak.</turkish>
+	</text>
+
 
 	<!-- Game / InteractPanel -->
 	<text name='ObjectInfo'>
@@ -107,7 +152,12 @@
 		<english>You don't have something to open the door.</english>
 		<turkish>Kapıyı açabilecek bir şeye sahip değilsin.</turkish>
 	</text>
-	
+
+	<text name='NoNote'>
+		<english>Lock slot is broken.</english>
+		<turkish>Anahtar girişi kırılmış.</turkish>
+	</text>
+
 	<text name='Added'>
 		<english>This item added to your inventory.</english>
 		<turkish>Eşya envanterine eklendi.</turkish>
@@ -133,10 +183,15 @@
 		<english>You don't have something to plug in.</english>
 		<turkish>Yuvaya takılabilecek bir şeyiniz yok.</turkish>
 	</text>
-	
+
 	<text name='LeverUsed'>
 		<english>I think something moving.</english>
 		<turkish>Sanırım bir şey hareket ediyor.</turkish>
+	</text>
+
+	<text name='ExitLeverUsed'>
+		<english>The sound comes from the end of the corridor.</english>
+		<turkish>Ses koridorun sonundan geliyor.</turkish>
 	</text>
 
 	<text name='KeyExit'>
@@ -144,6 +199,11 @@
 		<turkish>Çıkış Kapısının Anahtarı</turkish>
 	</text>
 
+	<text name='KeyNote'>
+		<english>Don't forget to fix the children's door.</english>
+		<turkish>Çocuk odasının kapısını tamir etmeyi unutma.</turkish>
+	</text>
+	
 	<text name='SafeNote'>
 		<english>Note: Sorry, I forgot to give you the code. The code is 0000</english>
 		<turkish>Not: Özür dilerim, sana kodu söylemeyi unutmuşum. 0000</turkish>
@@ -153,6 +213,11 @@
 	<text name='Safe'>
 		<english>The safe needs the code.</english>
 		<turkish>Çelik kasanın şifresi lazım.</turkish>
+	</text>
+
+	<text name='SafeEmpty'>
+		<english>The safe is empty.</english>
+		<turkish>Kasanın içinde bir şey yok.</turkish>
 	</text>
 
 	<text name='LeverSocket'>

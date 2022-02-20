@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3cb68fc8b65cd7a4d95eea94c60b36be
+guid: 08496460e809a4d498a4164f6cd14bc4
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Minako
+  - Comfortaa
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

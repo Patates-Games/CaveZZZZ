@@ -9,20 +9,24 @@ public class Messages : MonoBehaviour
     public TextMeshProUGUI textHolder;
     public GameObject subtitlePanel;
 
-    private void Start()
-    {
-    }
-
     public void GetSubtitle(string titleId, float time = 2f)
     {
-        StartCoroutine(ShowSubtitle(titleId, time));
+        if (FirstDoor.interact)
+        {
+            StartCoroutine(ShowSubtitle("StartInfo", 5f));
+            FirstDoor.info = true;
+            FirstDoor.interact = false;
+        } else
+        {
+            StartCoroutine(ShowSubtitle(titleId, time));
+        }
     }
 
     IEnumerator ShowSubtitle(string titleId, float time)
     {
         languageManager.SetSubtitle(textHolder, titleId);
         subtitlePanel.SetActive(true);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(time);
         subtitlePanel.SetActive(false);
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Interactable
   - Shelf
   - Script
+  - Grid
   layers:
   - Default
   - TransparentFX

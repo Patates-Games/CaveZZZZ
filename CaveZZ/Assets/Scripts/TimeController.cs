@@ -19,9 +19,11 @@ public class TimeController : MonoBehaviour
     public Times time = Times.Now;
     public Animator animator;
     public TextMeshProUGUI currentDateText;
+    PlayerController playerController;
 
     private void Start()
     {
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         SetTime();
     }
 
@@ -44,6 +46,7 @@ public class TimeController : MonoBehaviour
         SetTime();
         animator.SetTrigger("ChangeTime");
         StartCoroutine(DateChanger());
+        StartCoroutine(HoldPanel());
     }
 
     public void GoFuture(GameObject gameObject)
@@ -59,6 +62,7 @@ public class TimeController : MonoBehaviour
         SetTime();
         animator.SetTrigger("ChangeTime");
         StartCoroutine(DateChanger());
+        StartCoroutine(HoldPanel());
     }
 
     IEnumerator ButtonHolder(GameObject gameObject)
@@ -71,6 +75,14 @@ public class TimeController : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         languageManager.SetDate(currentDateText, time);
+    }
+
+    IEnumerator HoldPanel()
+    {
+        playerController.timePanelOpen = true;
+        Input.ResetInputAxes();
+        yield return new WaitForSeconds(2f);
+        playerController.timePanelOpen = false;
     }
 
 }
