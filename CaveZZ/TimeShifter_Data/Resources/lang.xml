@@ -55,6 +55,11 @@
 		<english>   INTERACT</english>
 		<turkish>   ETKİLEŞİM</turkish>
 	</text>
+	<text name='EToInteract'>
+		<english>[E] Interact</english>
+		<turkish>[E] Interact</turkish>
+	</text>
+
 	<text name='TimeShiftText'>
 		<english>   TIME SHIFTING</english>
 		<turkish>   ZAMAN YOLCULUĞU</turkish>
@@ -110,6 +115,13 @@
 		<english>I can't go any further future from here. It's too dangerous</english>
 		<turkish>Zamanda daha fazla ileriye gidemem, çok tehlikeli.</turkish>
 	</text>
+
+	<text name='DatePanelLabel'>
+		<english>Get lost in the past or perish in the future.</english>
+		<turkish>Geçmişte kaybol veya gelecekte yok ol.</turkish>
+	</text>
+
+
 
 	<!-- Game / SubtitlePanel -->
 	<text name='Subtitle'>
@@ -174,7 +186,7 @@
 	</text>
 
 	<text name='NoLockpick'>
-		<english>You don't have something to open the door.</english>
+		<english>You don't have anything to open the door.</english>
 		<turkish>Kapıyı açabilecek bir şeye sahip değilsin.</turkish>
 	</text>
 
@@ -206,7 +218,7 @@
 
 	<text name='NoLever'>
 		<english>You don't have something to plug in.</english>
-		<turkish>Yuvaya takılabilecek bir şeyiniz yok.</turkish>
+		<turkish>Yuvaya takabilecek bir şeyiniz yok.</turkish>
 	</text>
 
 	<text name='LeverUsed'>
@@ -249,4 +261,16 @@
 		<english>You plugged in lever to lever socket.</english>
 		<turkish>Şarteli yuvasına yerleştirdin.</turkish>
 	</text>
+	
+	<!-- GameOver -->
+	<text name='SpecialThanks'>
+		<english>Thanks for playing.</english>
+		<turkish>Oynadığınız için teşekkürler.</turkish>
+	</text>
+
+	<text name='MenuTxt'>
+		<english>MENU</english>
+		<turkish>MENÜ</turkish>
+	</text>
+
 </TXT>

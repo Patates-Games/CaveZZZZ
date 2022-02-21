@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     Inventory inventory;
     Messages messages;
     public TextMeshProUGUI infoText;
+    RectTransform infoPanelTransform;
+    public GameObject eToInteract;
 
     void Start()
     {
@@ -143,11 +145,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        eToInteract.SetActive(true);
         interactItem = collision.gameObject;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        eToInteract.SetActive(false);
         interactItem = null;
     }
 
@@ -159,12 +163,20 @@ public class PlayerController : MonoBehaviour
         CanMove(true);
     }
 
-    public IEnumerator GetInfo(float time = 2f)
+    public void GetInfo(float time = 2f)
     {
         infoPanel.SetActive(true);
         infoPanel.GetComponent<Animator>().SetTrigger("Show");
+    }
+    public IEnumerator GetInfoFixer(float time = 2f)
+    {
+        infoPanelTransform = infoPanel.GetComponent<RectTransform>();
+        infoPanel.SetActive(true);
+        infoPanel.GetComponent<Animator>().SetTrigger("Show");
         yield return new WaitForSeconds(time);
+        infoPanel.GetComponent<Animator>().SetTrigger("Show");
         infoPanel.GetComponent<Animator>().SetTrigger("Hide");
+        //StartCoroutine(GetInfoFixer(time));
     }
 
     void AnimationScript(float walkingLeft, float walkingRight, float walkingUp, float walkingDown)

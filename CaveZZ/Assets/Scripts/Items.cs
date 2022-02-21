@@ -65,7 +65,7 @@ public class Items : MonoBehaviour
         {
             if (!FirstDoor.info)
             {
-                StartCoroutine(playerController.GetInfo());
+                playerController.GetInfo(3.5f);
                 FirstDoor.info = true;
             }
             GetComponent<AudioSource>().Play();
@@ -102,6 +102,8 @@ public class Items : MonoBehaviour
             if (inventory.UseItem(Item.KeyExit))
             {
                 messages.GetSubtitle("ExitDoorSuccess");
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
                 SceneManager.LoadScene("GameOver", LoadSceneMode.Additive);
             }
             else messages.GetSubtitle("ExitDoorFailedWithoutKey");
@@ -126,7 +128,7 @@ public class Items : MonoBehaviour
                         if(texts[i].name == "InfoText")
                         {
                             texts[i].GetComponent<TextMeshProUGUI>().text = languageManager.GetLabel("UnlockedBeforeInfo", languageManager.language);
-                            StartCoroutine(playerController.GetInfo(3f));
+                            playerController.GetInfo(4f);
                         }
                     }
                 }

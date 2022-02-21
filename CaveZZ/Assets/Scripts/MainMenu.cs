@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        FirstDoor.info = false;
+        FirstDoor.interact = false;
+        FirstDoor.firstTime = false;
+        FirstDoor.canExit = false;
+}
     public void StartGame()
     {
         Cursor.visible = false;
