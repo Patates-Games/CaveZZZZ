@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Game", LoadSceneMode.Single);
     }
 
