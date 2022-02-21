@@ -26859,6 +26859,7 @@ MonoBehaviour:
   interactItem: {fileID: 0}
   speed: 500
   infoText: {fileID: 2016776262}
+  eToInteract: {fileID: 1416347869}
 --- !u!95 &1884895793
 Animator:
   serializedVersion: 3
