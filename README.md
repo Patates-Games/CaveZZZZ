@@ -10,7 +10,7 @@ ___
 ## __About / Hakkında__
 ### ___ENGLISH___
 ```
-This game was developed for Cave Jam #4. Development is paused until the review and scoring phase is finished.
+This game was developed for Mağara Jam #4. Development is paused until the review and scoring phase is finished.
 ```
 ### ___TURKISH___
 ```
@@ -25,7 +25,7 @@ Time Shifting (Superpower) Puzzle Game
 ```
 ### ___TURKISH___
 ```
-Zaman Kaydırma (Süper Güç) Bulmaca Oyunu
+Zaman Değiştirme (Süper Güç) Bulmaca Oyunu
 ```
 ___
 ## __Story / Hikaye__
@@ -61,7 +61,7 @@ Collectibles only spawn in a specific time period. That's why you should pay att
 ```
 ### ___TURKISH___
 ```
-Zaman kaydırma mekaniği kullanılırsa çevre de buna tepki gösterecektir.
+Zaman değiştirme mekaniği kullanılırsa çevre de buna tepki gösterecektir.
 ```
 ```
 Geçmişte kilidi açılan kapılar gelecekte de açılır. Gelecekte kilidi açılan kapılar geçmişte kilitli kalır.
