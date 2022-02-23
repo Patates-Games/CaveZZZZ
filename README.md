@@ -83,3 +83,15 @@ ___
 2. __Font:__ [Google - Comfortaa Font](https://fonts.google.com/specimen/Comfortaa)
 3. __Sprite Pack:__ [RPG Maker Library Tileset](https://pngset.com/download-free-png-ydawd)
 4. __Finish Video / Bitiş Videosu:__ [YouTube - Cinematic Clock](https://youtu.be/TR4gill6ktM)
+
+___
+## __Install Instructions / Kurulum Talimatları__
+>__WARNING:__ Run only 1920x1080 resolution for stable UI.
+1. Download the __ZIP__ file
+2. Unpack the __ZIP__ file
+3. Run the __TimeShifter.exe__
+
+>__UYARI:__ Stabil bir kullanıcı arayüzü için 1920x1080 çözünürlükte çalıştırın.
+1. __ZIP__ dosyasını indirin
+2. __ZIP__ dosyasını açın
+3. __TimeShifter.exe__ dosyasını çalıştırın
